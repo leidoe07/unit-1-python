@@ -33,7 +33,7 @@ correct_password = str('leidoe07')
 user_input = " "
 while correct_password != user_input:
     user_input = input('Enter a password')
-    correct_password == user_input:   
+    correct_password == user_input:
     break
     print('Correct')
     
