@@ -46,7 +46,7 @@ while True:
     else:
         print("Incorrect password")
 
-    if attempts = 3:
+    if attempts == 3:
         print("Too many attempts")
         break
 
