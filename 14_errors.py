@@ -13,7 +13,10 @@ def divide_numbers(num1, num2):
     print("Result:", result)
 
 # Example usage:
-divide_numbers(10, 0)
+try:
+    divide_numbers(10, 0)
+except:
+    print('cant divide by 0')
 
 
 """
