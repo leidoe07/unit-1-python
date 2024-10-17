@@ -16,10 +16,10 @@ def divide(a, b):
     else:
         return a / b
 
-# Test cases
+
 assert divide(8, 0) is None  # Expected output: None (since division by zero is handled)
 assert divide(8, 4) == 2  # Expected output: 2
-# Note: This tests if divide function handles division by zero and normal division properly.
+# This tests if divide function handles division by zero and normal division properly.
 
 """
 Exercise 2: Factorial
@@ -38,10 +38,10 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-# Test cases
+
 assert factorial(0) == 1  # The factorial of 0 is 1
 assert factorial(8) == 40320  # The factorial of 8 is 40320
-# Note: These assertions check for correct output of factorial function for edge case (0) and other integers.
+#  These assertions check for correct output of factorial function for edge case (0) and other integers.
 
 """
 Exercise 3: String Reverse
@@ -60,9 +60,9 @@ def reverse_string(string):
         reversed_string = char + reversed_string
     return reversed_string
 
-# Test cases
+
 assert reverse_string("hello") == "olleh"  # The string "hello" should reverse to "olleh"
-# Note: This test case checks if the reverse_string function correctly reverses the input string.
+#  This test case checks if the reverse_string function correctly reverses the input string.
 
 """
 Exercise 4: Fibonacci
@@ -83,10 +83,10 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-# Test cases
+
 assert fibonacci(1) == 1  # The 1st Fibonacci number is 1
 assert fibonacci(9) == 34  # The 9th Fibonacci number is 34
-# Note: These assertions ensure the Fibonacci sequence is calculated correctly at the 1st and 9th positions.
+# These assertions make sure the Fibonacci sequence is calculated correctly at the 1st and 9th positions.
 
 """
 Exercise 5: Email Validation
@@ -105,7 +105,7 @@ def is_valid_email(email):
     email_regex = r"^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$"
     return re.match(email_regex, email) is not None
 
-# Test cases
+
 assert is_valid_email("leilanidore07@gmail.com")  # Should return True for a valid email
 assert not is_valid_email("thissite.google.com")  # Should return False for an invalid email
-# Note: This tests for both valid and invalid email formats using regex pattern matching.
+# This tests for both valid and invalid email formats using regex pattern matching.
